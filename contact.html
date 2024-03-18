@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./contact.css" />
+    <script defer src="./contactscript.js"></script>
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <h1>Contact Form</h1>
+    <div id="form">
+      Firstname:
+      <input
+        id="firstname"
+        placeholder="enter your firstname"
+        type="text"
+        class="input"
+      /><br />
+      LastName:
+      <input
+        id="lastname"
+        placeholder="enter your lastname"
+        type="text"
+        class="input"
+      /><br />
+      Age:
+      <input
+        id="age"
+        placeholder="enter your age"
+        type="number"
+        class="input"
+      /><br />
+      Mobile Number:
+      <input
+        id="mobilenumber"
+        placeholder="mobile number"
+        type="number"
+        class="input"
+      /><br />
+      Alternate Mobile Number:
+      <input
+        id="alternate-number"
+        placeholder="alternate-number"
+        type="number"
+        class="input"
+      /><br />
+      Email:
+      <input placeholder="email" type="email" class="input" id="email" /><br />
+      PermanentAddress<br /><textarea id="currentaddress"></textarea><br />
+      <input id="radio" type="radio" />
+      Mark if current addresss same as permanent address Current Address
+      <br /><textarea id="Permanentaddress"></textarea>
+      <button onClick="OnSubmit()">Submit</button>
+    </div>
+  </body>
+</html>
