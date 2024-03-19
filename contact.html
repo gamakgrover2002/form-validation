@@ -10,48 +10,62 @@
   <body>
     <h1>Contact Form</h1>
     <div id="form">
-      Firstname:
+      Firstname<br />
       <input
         id="firstname"
-        placeholder="enter your firstname"
+        placeholder="enter your first name"
         type="text"
         class="input"
       /><br />
-      LastName:
+      LastName <br />
       <input
         id="lastname"
-        placeholder="enter your lastname"
+        placeholder="enter your last name"
         type="text"
         class="input"
       /><br />
-      Age:
+      Age<br />
       <input
         id="age"
         placeholder="enter your age"
         type="number"
         class="input"
       /><br />
-      Mobile Number:
+      Mobile Number<br />
       <input
         id="mobilenumber"
-        placeholder="mobile number"
+        placeholder="enter your mobile number"
         type="number"
         class="input"
       /><br />
-      Alternate Mobile Number:
+      Alternate Mobile Number<br />
       <input
         id="alternate-number"
-        placeholder="alternate-number"
+        placeholder="enter an alternate number for contact"
         type="number"
         class="input"
       /><br />
-      Email:
-      <input placeholder="email" type="email" class="input" id="email" /><br />
-      PermanentAddress<br /><textarea id="currentaddress"></textarea><br />
-      <input id="radio" type="radio" />
-      Mark if current addresss same as permanent address Current Address
-      <br /><textarea id="Permanentaddress"></textarea>
+      Email<br />
+      <input
+        placeholder="enter your email"
+        type="email"
+        class="input"
+        id="email"
+      /><br />
+      Current Address<br />
+      <textarea id="currentaddress" placeholder="Current Address"></textarea
+      ><br />
+      <br />
+      <input onchange="check()" name="check" id="radio" type="radio" />
+      <label for="check"
+        >Check if Permanent address same as current address </label
+      ><br />
+      <br />
+      Permanent address<br />
+      <textarea id="Permanentaddress" placeholder="Permanent Address"></textarea
+      ><br />
       <button onClick="OnSubmit()">Submit</button>
     </div>
+    <a href="/index.html"><div id="back">Back</div></a>
   </body>
 </html>

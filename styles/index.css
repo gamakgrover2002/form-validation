@@ -1,0 +1,20 @@
+body {
+  background-image: url("../assets/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  text-align: center;
+  padding-top: 30vh;
+}
+button {
+  width: 20vw;
+  height: 10vh;
+  margin: 5vw;
+  border-radius: 20px;
+  cursor: pointer;
+}
+button:hover {
+  box-shadow:
+    3px 3px 5px white,
+    -3px -3px 5px white;
+}

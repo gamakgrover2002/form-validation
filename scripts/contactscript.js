@@ -7,7 +7,7 @@ const OnSubmit = () => {
   const alternatenumber = document.getElementById("alternate-number").value;
 
   const currentaddress = document.getElementById("currentaddress").value;
-  const Permanentaddress = document.getElementById("Permanentaddress").value;
+
   if (
     !lastname ||
     !firstname ||
@@ -29,4 +29,10 @@ const OnSubmit = () => {
     confirm("Details submitted successfully");
   }
 };
-console.log("hi");
+function check() {
+  const radio = document.getElementById("radio").checked;
+  if (radio) {
+    document.getElementById("Permanentaddress").value =
+      document.getElementById("currentaddress").value;
+  }
+}

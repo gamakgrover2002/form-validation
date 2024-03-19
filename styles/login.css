@@ -1,10 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-#form {
+.login-form {
   width: 30vw;
-  height: 95vh;
+  height: 60vh;
   margin-left: 35vw;
   padding-top: 10vh;
   font-size: large;
@@ -22,21 +18,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-input,
-textarea {
-  margin-bottom: 0.5vw;
-  padding: 5px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  width: 70%;
-  box-sizing: border-box;
-}
-
-input[type="radio"] {
-  width: 5%;
-  box-sizing: border-box;
+#forgot-password:hover {
+  cursor: pointer;
 }
 #back {
   position: absolute;
@@ -50,13 +33,22 @@ input[type="radio"] {
 #back:hover {
   text-shadow: 3px 3px 5px white;
 }
+input {
+  margin-bottom: 5px;
+  /* Add some basic input styles */
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 70%;
+  box-sizing: border-box;
+}
 button {
   width: 20vw;
-  height: 7vh;
+  height: 10vh;
   margin: 5vw;
   border-radius: 20px;
   cursor: pointer;
-  margin-top: 10px;
 }
 button:hover {
   box-shadow:
