@@ -63,3 +63,9 @@ button:hover {
     3px 3px 5px white,
     -3px -3px 5px white;
 }
+input[type="checkbox"] {
+  margin: 4px 0 0;
+  line-height: normal;
+  width: 20px;
+  height: 20px;
+}
