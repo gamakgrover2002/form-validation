@@ -18,7 +18,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-#forgot-password:hover {
+a {
+  color: plum;
+}
+a:hover {
+  color: red;
   cursor: pointer;
 }
 #back {
@@ -35,7 +39,6 @@ body {
 }
 input {
   margin-bottom: 5px;
-  /* Add some basic input styles */
   padding: 5px;
   font-size: 16px;
   border: 1px solid #ccc;
