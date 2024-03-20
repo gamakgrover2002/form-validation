@@ -4,7 +4,7 @@
 }
 #form {
   width: 30vw;
-  height: 100vh;
+  height: 120vh;
   margin-left: 35vw;
   padding-top: 10vh;
   font-size: large;
@@ -22,7 +22,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
-  height: 100vh;
+  height: 150vh;
 }
 
 input,
