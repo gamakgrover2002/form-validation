@@ -19,7 +19,7 @@ const OnSubmit = () => {
     alert("details missing");
   } else if (age < 18) {
     alert("minimum age should be 18");
-  } else if (mobilenumber.length != 10 && alternatenumber.length != 10) {
+  } else if (mobilenumber.length != 10 || alternatenumber.length != 10) {
     alert("invalid mobile number");
   } else if (mobilenumber == alternatenumber) {
     alert("alertnumber and contactnumber should not same");
